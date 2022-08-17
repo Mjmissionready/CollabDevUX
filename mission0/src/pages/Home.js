@@ -2,7 +2,6 @@ import * as React from "react";
 import styled from "styled-components";
 import Header from "../components/Header";
 import About from "./About";
-// import Chat from "../components/chat";
 
 const Container = styled.div`
   display: flex;
@@ -16,7 +15,6 @@ function Home() {
     <Container>
       <Header />
       <About />
-      
     </Container>
   );
 }
