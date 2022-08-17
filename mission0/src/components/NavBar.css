@@ -7,9 +7,11 @@
   --navbar: rgb(255, 255, 255);
   --nav-text: rgb(6, 6, 34);
   --text: rgb(20, 20, 20);
-  --accent: #fa8314;
-  --hover: rgba(26, 248, 200, 0.849);
-  --PrimaryText: "Lobster";
+  --accent: rgba(23, 124, 255, 0.966);
+  --accentRed: rgba(233, 57, 57, 0.966);
+  --hover: rgba(233, 57, 57, 0.966);
+  --PrimaryText: 'Nova Round';
+  --SecondText: 'Roboto';
 }
 
 /* "Mouse Memoirs"
@@ -43,14 +45,15 @@ a {
 }
 
 .nav__logo img {
-  height: 40px;
+  height: 30px;
   width: auto;
 }
 
 .nav__menu {
   list-style: none;
   display: flex;
-  padding-left: 80px;
+  padding-right: 40px;
+  font-weight: bold;
 }
 
 .nav__menu li {

@@ -65,19 +65,48 @@ export default function Font() {
             id: 10,
             num: 10,
             fontFamily: 'Inspiration'
-        }]
+        },
+        {
+            id: 11,
+            num: 10,
+            fontFamily: 'Baloo Da 2'
+        },
+        {
+            id: 12,
+            num: 10,
+            fontFamily: 'Baloo Thambi 2'
+        },
+        {
+            id: 13,
+            num: 10,
+            fontFamily: 'Nova Flat'
+        },
+        {
+            id: 14,
+            num: 10,
+            fontFamily: 'Nova Round'
+        },
+        {
+            id: 15,
+            num: 10,
+            fontFamily: 'Offside'
+        },
+        {
+            id: 16,
+            num: 10,
+            fontFamily: 'Rock Salt'
+        },
+        {
+            id: 17,
+            num: 10,
+            fontFamily: 'Roboto'
+        },
+    ]
 
     const textList = texts.map(text => <Text style={text}> This is the Font. DO YOU LIKE THIS? </Text>)
     return (
-        <>
-    
-                        <iframe
-                        title="chatBot"
-                        allow="microphone;"
-                        width="325"
-                        height="430"
-                        src="https://console.dialogflow.com/api-client/demo/embedded/4997297d-cded-4bc5-b688-a82844185d4e">
-                    </iframe>
-                    </>
+        <div style={{paddingTop: '80px'}}>
+            {textList}
+        </div>
     );
 }
